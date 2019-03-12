@@ -22,7 +22,7 @@
         // Please use Strings, Numbers, or Bools for value types.
         pendo.initialize({
           visitor: {
-            id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
+            id:              '12345'   // Required if user is logged in
             // email:        // Optional
             // role:         // Optional
 
@@ -41,13 +41,17 @@
             // as long as it's not one of the above reserved names.
           }
         });
-      })('ce1d94a1-f048-400d-718a-d184746a3de2');
+      })('1b7bd4f8-4502-4e86-62db-75a85e388b3c');
     </script>
   </head>
   <body>
       <h1>Best Page Ever</h1>
       <h1>Second h1 </h1>
-        <a href="pagetwo.html">Click here for other page</a>
-  <p>Another change so that this updates. And I swear I'll put a legit page here some day.</p>
+        <a href="page%2520two%2520.html">Click here for other page</a>
+      <p>Another change so that this updates. And I swear I'll put a legit page here some day.</p>
+      <div>Iframe One</div>
+      <iframe src="./someotherpage.html" style="width:700px;height:700px;"></iframe>
+      <div>Iframe Two</div>
+      <iframe src="./someotherpage.html" style="width:700px;height:700px;"></iframe>
   </body>
 </html>
