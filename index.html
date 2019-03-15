@@ -21,25 +21,26 @@
         // Call this whenever information about your visitors becomes available
         // Please use Strings, Numbers, or Bools for value types.
         pendo.initialize({
-          visitor: {
-            id:              '12345'   // Required if user is logged in
-            // email:        // Optional
-            // role:         // Optional
+            apiKey: '1b7bd4f8-4502-4e86-62db-75a85e388b3c',
+              visitor: {
+                id:              '12345'   // Required if user is logged in
+                // email:        // Optional
+                // role:         // Optional
 
-            // You can add any additional visitor level key-values here,
-            // as long as it's not one of the above reserved names.
-          },
+                // You can add any additional visitor level key-values here,
+                // as long as it's not one of the above reserved names.
+              },
 
-          account: {
-            id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
-            // name:         // Optional
-            // planLevel:    // Optional
-            // planPrice:    // Optional
-            // creationDate: // Optional
+              account: {
+                id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
+                // name:         // Optional
+                // planLevel:    // Optional
+                // planPrice:    // Optional
+                // creationDate: // Optional
 
-            // You can add any additional account level key-values here,
-            // as long as it's not one of the above reserved names.
-          }
+                // You can add any additional account level key-values here,
+                // as long as it's not one of the above reserved names.
+              }
         });
       })('1b7bd4f8-4502-4e86-62db-75a85e388b3c');
     </script>
